@@ -72,7 +72,7 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* {/* Timeline */
+          /* {/* Timeline */}
           <div>
             <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
             <div className="space-y-6">
@@ -104,7 +104,7 @@ const About: React.FC = () => {
               ))}
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
