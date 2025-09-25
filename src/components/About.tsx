@@ -4,24 +4,24 @@ import { CheckCircle, User, GraduationCap, Target } from 'lucide-react';
 const About: React.FC = () => {
   const timelineSteps = [
     {
-      title: 'Pesquisa',
-      description: 'Revisão bibliográfica e fundamentação teórica',
-      status: 'completed'
+      title: '',
+      description: '',
+      status: ''
     },
     {
-      title: 'Coleta',
-      description: 'Coleta de dados e entrevistas estruturadas',
-      status: 'completed'
+      title: '',
+      description: '',
+      status: ''
     },
     {
-      title: 'Análise',
-      description: 'Análise qualitativa e quantitativa dos dados',
-      status: 'completed'
+      title: '',
+      description: '',
+      status: ''
     },
     {
-      title: 'Conclusão',
-      description: 'Elaboração de materiais e recomendações finais',
-      status: 'current'
+      title: '',
+      description: '',
+      status: ''
     }
   ];
 
@@ -74,7 +74,7 @@ const About: React.FC = () => {
 
           {/* Timeline */}
           <div>
-            {/* <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
+            <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
             <div className="space-y-6">
               {timelineSteps.map((step, index) => (
                 <div key={index} className="flex items-start space-x-4">
@@ -84,7 +84,7 @@ const About: React.FC = () => {
                       : step.status === 'current'
                       ? 'bg-accent text-white'
                       : 'bg-gray-100 text-gray-400'
-                  }`}> */}
+                  }`}>
                     {step.status === 'completed' ? (
                       <CheckCircle className="w-6 h-6" />
                     ) : (
