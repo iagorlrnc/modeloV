@@ -85,11 +85,6 @@ const About: React.FC = () => {
                       ? 'bg-accent text-white'
                       : 'bg-gray-100 text-gray-400'
                   }`}>
-                  
-                  </div>
-                  
-              
-                </div>
               ))}
             </div>
           </div>
