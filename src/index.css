@@ -75,7 +75,6 @@ section.animate-fade-in {
 }
 
 /* Focus styles for accessibility */
-button:focus,
 a:focus,
 input:focus,
 textarea:focus,
