@@ -59,7 +59,7 @@ const About: React.FC = () => {
                   <User className="w-6 h-6 text-accent" />
                   <h4 className="font-semibold text-text">Aluna</h4>
                 </div>
-                <p className="text-gray-600">Prof.ª Dra. Maria Silva Santos</p>
+                <p className="text-gray-600">Laís Pereira Dias</p>
               </div>
               
               <div className="bg-white p-6 rounded-xl border border-rosa-marfil-2 shadow-sm">
