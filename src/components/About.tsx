@@ -72,9 +72,9 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          /* {/* Timeline */}
+          {/* Timeline */}
           <div>
-            <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
+            {/* <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
             <div className="space-y-6">
               {timelineSteps.map((step, index) => (
                 <div key={index} className="flex items-start space-x-4">
@@ -84,7 +84,7 @@ const About: React.FC = () => {
                       : step.status === 'current'
                       ? 'bg-accent text-white'
                       : 'bg-gray-100 text-gray-400'
-                  }`}>
+                  }`}> */}
                     {step.status === 'completed' ? (
                       <CheckCircle className="w-6 h-6" />
                     ) : (
