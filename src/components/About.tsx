@@ -4,24 +4,24 @@ import { CheckCircle, User, GraduationCap, Target } from 'lucide-react';
 const About: React.FC = () => {
   const timelineSteps = [
     {
-      title: '',
-      description: '',
-      status: ''
+      title: 'Pesquisa',
+      description: 'Revisão bibliográfica e fundamentação teórica',
+      status: 'completed'
     },
     {
-      title: '',
-      description: '',
-      status: ''
+      title: 'Coleta',
+      description: 'Coleta de dados e entrevistas estruturadas',
+      status: 'completed'
     },
     {
-      title: '',
-      description: '',
-      status: ''
+      title: 'Análise',
+      description: 'Análise qualitativa e quantitativa dos dados',
+      status: 'completed'
     },
     {
-      title: '',
-      description: '',
-      status: ''
+      title: 'Conclusão',
+      description: 'Elaboração de materiais e recomendações finais',
+      status: 'current'
     }
   ];
 
@@ -57,9 +57,9 @@ const About: React.FC = () => {
               <div className="bg-white p-6 rounded-xl border border-rosa-marfil-2 shadow-sm">
                 <div className="flex items-center space-x-3 mb-3">
                   <User className="w-6 h-6 text-accent" />
-                  <h4 className="font-semibold text-text">Aluna</h4>
+                  <h4 className="font-semibold text-text">Orientadora</h4>
                 </div>
-                <p className="text-gray-600">Laís Pereira Dias</p>
+                <p className="text-gray-600">Prof.ª Dra. Maria Silva Santos</p>
               </div>
               
               <div className="bg-white p-6 rounded-xl border border-rosa-marfil-2 shadow-sm">
@@ -67,12 +67,12 @@ const About: React.FC = () => {
                   <GraduationCap className="w-6 h-6 text-accent" />
                   <h4 className="font-semibold text-text">Instituição</h4>
                 </div>
-                <p className="text-gray-600">Universidade Federal do Tocantins</p>
+                <p className="text-gray-600">Universidade Federal de São Paulo</p>
               </div>
             </div>
           </div>
 
-         {/* Timeline */}
+          {/* Timeline */}
           <div>
             <h3 className="text-2xl font-bold text-text mb-8">Fases do TCC</h3>
             <div className="space-y-6">
